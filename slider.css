@@ -1,0 +1,154 @@
+.slider-container{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    width:100%;
+    overflow: hidden;
+}
+.slider{
+    position: relative;
+    margin:100px auto;
+    max-width:800px;
+    max-height:500px;
+    min-width: 200px;
+    min-height: 100px;
+    width:100%;
+    height: 500px;
+
+}
+
+.slider img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+opacity: 0;
+}
+.slider h1{
+    z-index: 999;
+    position: relative !important;
+    background:#333;
+    text-align: center;
+    color:#fff;
+    vertical-align: middle;
+    /*padding:10px;*/
+    position: relative;
+    width: 100%;
+    top:450px;
+    height:50px;
+    line-height: 1.5;
+    opacity: 0.8;
+}
+.slider > ul{
+    list-style-type: none;
+}
+.slider > ul li{
+    float:left;
+}
+.slider .btn{
+    cursor: pointer;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background:#333;
+    border:#dcdcdc 1px solid;
+    opacity: 0.8;
+    color:#fff;
+    z-index: 999;
+}  
+.slider #btnPrev{
+    float:left;
+    top:249px;
+    left:20px;
+}
+.slider #btnNext{
+    float:right;
+    top:249px;
+    right:20px;
+   
+}
+
+@media screen and (max-width:992px){
+ .slider{
+    max-height: 400px;
+ }
+ .slider #btnPrev{
+    float:left;
+    top:199px;
+    left:20px;
+}
+.slider #btnNext{
+    float:right;
+    top:199px;
+    right:20px;
+}
+.slider h1{
+    margin:0 auto;
+    background:#333;
+    text-align: center;
+    color:#fff;
+    vertical-align: middle;
+    position: relative;
+    width: 100%;
+    top: 350px;
+    height:50px;
+    line-height: 1.5;
+    opacity: 0.8;
+}
+}
+
+@media screen and (max-width:768px){
+ .slider{
+    max-height: 300px;
+ }
+  .slider #btnPrev{
+    float:left;
+    top:149px;
+    left:20px;
+}
+.slider #btnNext{
+    float:right;
+    top:149px;
+    right:20px;  
+}
+.slider h1{
+    background:#333;
+    text-align: center;
+    color:#fff;
+    vertical-align: middle;
+    line-height: 1.5;
+    position: relative;
+    width: 100%;
+    top:250px;
+    opacity: 0.8;
+}
+}
+
+@media screen and (max-width:500px){
+ .slider{
+    max-height: 200px;
+ }
+  .slider #btnPrev{
+    float:left;
+    top:99px;
+    left:20px;
+}
+.slider #btnNext{
+    float:right;
+    top:99px;
+    right:20px;
+}
+.slider h1{
+    background:#333;
+    text-align: center;
+    color:#fff;
+    vertical-align: middle;
+    height:50px;
+    line-height: 1.5;
+    position: relative;
+    width: 100%;
+    top:150px;
+    opacity: 0.8;
+}
+}

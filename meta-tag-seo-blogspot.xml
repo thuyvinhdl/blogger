@@ -1,0 +1,91 @@
+<meta charset='utf-8'/>
+<meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+<link href='https://blogcuabanxxx.blogspot.com/' hreflang='vi-vn' rel='alternate'/>
+<link expr:href='data:blog.homepageUrl + &quot;favicon.ico&quot;' rel='icon' type='image/x-icon'/>
+<link expr:href='data:blog.url' rel='canonical'/>
+<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default?alt=rss&quot;' expr:title='data:blog.title + &quot; - RSS&quot;' rel='alternate' type='application/rss+xml'/>
+<link expr:href='&quot;//www.blogger.com/feeds/&quot; + data:blog.blogId + &quot;/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+<link href='//www.blogger.com/openid-server.g' rel='openid.server'/>
+<link expr:href='data:blog.homepageUrl' rel='openid.delegate'/>
+<link href='//plus.google.com/+itsmenguyen/posts' rel='publisher'/>
+<link href='//plus.google.com/+itsmenguyen/about' rel='author'/>
+<link href='//plus.google.com/+itsmenguyen' rel='me'/>
+<include expiration='7d' path='*.css'/>
+<include expiration='7d' path='*.js'/>
+<include expiration='3d' path='*.gif'/>
+<include expiration='3d' path='*.jpeg'/>
+<include expiration='3d' path='*.jpg'/>
+<include expiration='3d' path='*.png'/>
+<meta content='sat, 02 jun 2020 00:00:00 GMT' http-equiv='expires'/>
+<meta content='all' name='audience'/>
+<meta content='blogger' name='generator'/>
+<meta content='translate' name='google'/>
+<meta content='general' name='rating'/>
+<meta content='vi_VN' name='geo.country'/>
+<meta content='vi_VN' name='geo.placename'/>
+<meta content='xxxx' property='fb:app_id'/>
+<meta content='xxxx' property='fb:admins'/>
+<meta content='xxxx' property='fb:pages'/>
+<meta content='@xxxx' name='twitter:site'/>
+<meta content='@xxxx' name='twitter:creator'/>
+<meta content='xxxx' name='msvalidate.01'/>
+<meta content='xxxx' name='yandex-verification'/>
+<meta content='xxxx' name='google-site-verification'/>
+<!-- [ Meta SEO Blogger By https://www.cafevatoi.com/ - 5.2018] -->
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<title><data:blog.pageTitle/></title>
+<b:else/>
+<b:if cond='data:blog.pageType == &quot;archive&quot;'>
+<title>Archive For <data:blog.pageName/></title>
+<meta content='noindex,nofollow,noarchive' name='robots'/>
+<b:else/>
+<b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+<title>Page Not Found</title>
+<b:else/>
+<title><data:blog.pageName/></title>
+</b:if></b:if></b:if>
+<meta expr:content='data:blog.pageTitle' property='og:title'/>
+<meta expr:content='data:blog.canonicalUrl' property='og:url'/>
+<b:if cond='data:blog.homepageUrl == data:blog.url'>
+<meta content='YOUR KEYWORDS' name='keywords'/>
+<meta content='YOUR KEYWORDS' name='news_keywords'/>
+<meta expr:content='data:blog.metaDescription' property='og:description'/>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<meta expr:content='data:blog.pageName' name='keywords'/>
+<b:if cond='data:blog.metaDescription'>
+<meta expr:content='data:blog.metaDescription' property='og:description'/>
+</b:if>
+<b:else/>
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+<meta expr:content='data:blog.pageName' name='keywords'/>
+<b:if cond='data:blog.metaDescription'>
+<meta expr:content='data:blog.metaDescription' property='og:description'/>
+</b:if>
+</b:if>
+</b:if>
+<b:if cond='data:blog.postImageUrl'>
+<meta expr:content='data:blog.postImageUrl' property='og:image'/>
+<b:else/>
+<b:if cond='data:blog.postImageUrl'>
+<meta expr:content='data:blog.postImageUrl' property='og:image'/>
+</b:if>
+<meta content=YOUR LINKS IMAGE' property='og:image'/>
+    <meta content='650' property='og:image:width'/>
+    <meta content='1200' property='og:image:height'/>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<b:if cond='data:blog.searchLabel'>
+<meta content='noindex,nofollow' name='robots'/>
+</b:if>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;archive&quot;'>
+<meta content='noindex,nofollow' name='robots'/>
+</b:if>
+<b:if cond='data:blog.isMobile'>
+<meta content='noindex,nofollow' name='robots'/>
+</b:if>
+ <!-- [ Meta SEO Blogger By CafeVàTôi - 5.2018] -->
